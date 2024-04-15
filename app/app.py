@@ -83,9 +83,9 @@ with ui.layout_columns():
                 y="bill_depth_mm",
                 hue="species",
             )
-#changing the data header to "Penguin Data"
+
     with ui.card(full_screen=True):
-        ui.card_header("Penguin Data")
+        ui.card_header("Penguin da")
 
         @render.data_frame
         def summary_statistics():
